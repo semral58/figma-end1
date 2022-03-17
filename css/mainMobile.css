@@ -1,0 +1,493 @@
+/*! 1 Section */
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    margin-left: 20px;
+}
+
+header .logo img {
+    width: 50px;
+    height: 30px;
+}
+
+header .logo {
+    margin-top: 20px;
+    width: 20%;
+}
+
+header .boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.boxes .box {
+    display: flex;
+    align-items: center;
+}
+
+.boxes .box img {
+    width: 11px;
+    height: 11px;
+}
+
+.boxes .box p {
+    margin-left: 3px;
+    margin-right: 13px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+header .boxes2 {
+    display: flex;
+    flex-direction: column;
+}
+
+header .boxes2 .text h1 {
+    width: 250px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    margin-top: 0px;
+}
+
+header .boxes2 .text p {
+    font-size: 9px;
+    line-height: 13px;
+    width: 190px;
+    margin-top: -8px;
+}
+
+.image-man {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+}
+
+.image-man img {
+    width: 90px;
+    height: 110px;
+}
+
+.section1 {
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section1 .box {
+    width: 220px;
+    height: 85px;
+    margin-left: 40px;
+    border-radius: 3px;
+    background-color: #1E4681;
+}
+
+.section1 .box .text {
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 185px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: white;
+}
+
+.section1 .box .author {
+    text-align: end;
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    color: white;
+    margin-top: -8px;
+}
+
+
+/*!  2  Section  */
+
+.title {
+    width: 171px;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 28px;
+}
+
+.article {
+    width: 290px;
+    margin-left: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.image {
+    width: 146.32px;
+    height: 146.78px;
+    margin-left: 85px;
+    margin-top: 0px;
+}
+
+.image-2 {
+    display: none;
+}
+
+.notification {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-2 {
+    width: 135px;
+}
+
+.item .item-title,
+.item-2 .item-title {
+    width: 70px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.item .item-title {
+    margin-top: 125px;
+}
+
+.item-2 .item-title {
+    margin-top: 30px;
+}
+
+.item .item-article_1 {
+    width: 86px;
+    height: 18px;
+    margin-top: -5px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.item .item-article_2 {
+    width: 86.89px;
+    height: 18.5px;
+    margin-top: -5px;
+    margin-left: 33.33px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.item .second {
+    margin-left: 33.33px;
+}
+
+.item-2 .item-article_3 {
+    width: 76px;
+    height: 18px;
+    margin-top: -5px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+
+/*!  3  Section  */
+
+.Формат-занятий {
+    margin-left: 20px;
+}
+
+.first-second {
+    width: 300px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.first-container {
+    display: block;
+    justify-content: space-between;
+}
+
+.Вебинары {
+    width: 60%;
+    height: 100px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.Доступ-навсегда {
+    width: 55%;
+    height: 130px;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+.Общение {
+    width: 60%;
+    height: 130px;
+    font-size: 17px;
+    margin-top: -50px;
+}
+
+.first-container h3 {
+    color: #1E4681;
+    font-size: 12px;
+}
+
+.first-container p {
+    font-size: 10px;
+    margin-top: -8px;
+}
+
+.Что-узнаем {
+    margin-top: 0 !important;
+}
+
+.container-second {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.Кто-чем {
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+li {
+    font-size: 10px;
+}
+
+
+/*!  4  Section  */
+
+.title-course {
+    width: 70%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+.container {
+    Width: 100%;
+    height: 1350px;
+    margin-left: -45px;
+}
+
+.card {
+    width: 150px;
+    height: 132px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 35.66px 94.08px 0px 125px;
+}
+
+.photo {
+    width: 150px;
+    height: 60px;
+}
+
+.card-title {
+    width: 95%;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+.card-main {
+    width: 75%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.card .last {
+    margin-top: -5px;
+}
+
+
+/*!  5  Section  */
+
+.container-about {
+    height: 380px;
+    background-color: #efefef;
+}
+
+.child-title {
+    margin-left: 25px;
+    width: 257px;
+    padding-top: 32px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+.block {
+    width: 270px;
+    height: 245px;
+    margin-top: -10px;
+    margin-left: 25px;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.text {
+    width: 245px;
+    padding-top: 19px;
+    padding-left: 20px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.sec {
+    display: flex;
+    margin-left: -10px;
+}
+
+.image_1 {
+    width: 35%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.image_2 {
+    width: 15px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sub {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+/*!  6  Section  */
+
+.container4 {
+    margin: auto;
+    margin-top: 0px;
+}
+
+.container4-1 {
+    display: flex;
+    background-color: #9DC9C8;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-left: 10%;
+}
+
+.content {
+    display: flex;
+}
+
+.kurs {
+    font-weight: 700;
+    font-size: 15px;
+    width: 65%;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+.rubl-1 {
+    font-size: 12px;
+    margin-top: 23px;
+    line-height: 12.5px;
+}
+
+.rubl-2 {
+    font-size: 37px;
+    line-height: 38px;
+    margin-top: -10px;
+}
+
+.text-content {
+    width: 100%;
+    margin-right: 25px;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.text-content1 {
+    width: 85%;
+    font-size: 9px;
+    margin-right: 25px;
+    margin-bottom: 34px;
+    margin-top: -5px;
+}
+
+.container4-2 {
+    background-color: black;
+    color: white;
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+
+.top-social {
+    display: flex;
+    margin-top: 15px;
+}
+
+.logos {
+    margin-right: 10px;
+}
+
+.insta,
+.fb,
+.vk,
+.wp {
+    width: 100%;
+}
+
+.contact {
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.phone {
+    margin-bottom: 5px;
+}
+
+.mail {
+    margin-bottom: 50px;
+}
+
+.logo1 {
+    margin-right: 15px;
+}
+
+.sinxronizasiya {
+    font-size: 10px;
+}

@@ -1,0 +1,511 @@
+/*! 1 Section */
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    margin-left: 70px;
+}
+
+header .logo img {
+    width: 100px;
+    height: 60px;
+    margin-top: 0px;
+}
+
+header .logo {
+    margin-top: 20px;
+    width: 15%;
+}
+
+header .boxes {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.boxes .box img {
+    width: 20px;
+    height: 20px;
+}
+
+.boxes .box p {
+    margin-left: 7px;
+    margin-right: -105px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+header .boxes2 {
+    display: flex;
+}
+
+header .boxes2 .text h1 {
+    width: 450px;
+    height: 110px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 55px;
+    margin-top: 5px;
+}
+
+header .boxes2 .text p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 340px;
+    margin-top: -15px;
+}
+
+.image-man {
+    margin-top: -195px;
+    width: 85%;
+}
+
+.image-man img {
+    width: 220px;
+    height: 270px;
+}
+
+.section1 {
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 300px;
+}
+
+.section1 .box {
+    width: 400px;
+    height: 110px;
+    border-radius: 3px;
+    background-color: #1E4681;
+}
+
+.section1 .box .text {
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 220px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    opacity: 0.9;
+}
+
+.section1 .box .author {
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 0.9;
+}
+
+
+/*!  2  Section  */
+
+.main-info,
+.second-info {
+    display: flex;
+}
+
+.title {
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 80px;
+    font-size: 45px;
+    line-height: 33px;
+}
+
+.article {
+    width: 410px;
+    margin-left: 70px;
+    margin-top: 11px;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.image {
+    width: 90%;
+    height: 220px;
+    margin-top: 155px;
+    margin-left: 150px;
+}
+
+.image-2 {
+    width: 80%;
+    height: 140px;
+    display: block;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+
+.notification {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item .item-title,
+.item-2 .item-title {
+    width: 95px;
+    height: 23px;
+    margin-top: 75px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item .first {
+    margin-left: 115px;
+}
+
+.item .second {
+    margin-left: 60px;
+}
+
+.item-2 .third {
+    margin-left: 35px;
+}
+
+.item .item-article_1,
+.item-2 .item-article_3 {
+    width: 87px;
+    height: 23px;
+    margin-top: -10px;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.item .item-article_1 {
+    margin-left: 115px;
+}
+
+.item-2 .item-article_3 {
+    margin-left: 35px;
+}
+
+.item .item-article_2 {
+    width: 108px;
+    height: 23px;
+    margin-left: 60px;
+    margin-top: -10px;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+
+/*!  3  Section  */
+
+.Формат-занятий {
+    margin-left: 70px;
+}
+
+.first-second {
+    width: 400px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 90px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.first-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Вебинары {
+    width: 250px;
+    height: 100px;
+    font-size: 17px;
+}
+
+.Вебинары p {
+    width: 60%;
+}
+
+.Доступ-навсегда {
+    width: 250px;
+    height: 100px;
+    font-size: 17px;
+}
+
+.Доступ-навсегда h3 {
+    margin-top: 75px;
+}
+
+.Доступ-навсегда p {
+    width: 70%;
+}
+
+.Общение {
+    margin-left: 25px;
+    width: 250px;
+    height: 100px;
+    font-size: 17px;
+}
+
+.Общение h3 {
+    margin-top: 95px;
+}
+
+.first-container h3 {
+    font-size: 15px;
+}
+
+.first-container p {
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.container-second {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+
+p {
+    width: 220px;
+    font-size: 17px;
+}
+
+li {
+    font-size: 17px;
+    margin-left: 35px;
+}
+
+
+/*!  4  Section  */
+
+.title-course {
+    width: 50%;
+    height: 53px;
+    font-size: 35px;
+    line-height: 33px;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+.container {
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    margin: 0px;
+    margin-right: 22px;
+    margin-bottom: 24px;
+}
+
+.photo {
+    width: 250px;
+    height: 100px;
+}
+
+.card-title {
+    width: 90%;
+    font-size: 17px;
+    line-height: 15px;
+}
+
+.card-main {
+    width: 75%;
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 30px;
+}
+
+.card .last {
+    margin-top: -3px;
+}
+
+
+/*!  5  Section  */
+
+.container-about {
+    height: 520px;
+    background-color: #efefef;
+}
+
+.child-title {
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 53px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+}
+
+.block {
+    width: 560px;
+    height: 310px;
+    margin-top: 40px;
+    margin-left: 75px;
+    background: #FFFFFF;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.text {
+    width: 515px;
+    padding-top: 23.17px;
+    padding-left: 26.06px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec {
+    display: flex;
+}
+
+.image_1 {
+    width: 25%;
+    height: 20%;
+    padding-left: 16px;
+    margin-top: -5px;
+}
+
+.image_2 {
+    width: 18.53px;
+    height: 17.95px;
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.sub {
+    width: 204px;
+    padding-left: 18px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+
+
+/*!  6  Section  */
+
+.container4 {
+    margin: auto;
+    margin-top: 0px;
+}
+
+.container4-1 {
+    display: flex;
+    background-color: #9DC9C8;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.content {
+    display: flex;
+}
+
+.content2 {
+    margin-left: -200px;
+}
+
+.kurs {
+    font-size: 32px;
+    width: 80%;
+    font-family: 'Roboto Slab', sans-serif;
+    line-height: 33px;
+}
+
+.rubl-1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.rubl-2 {
+    font-size: 60px;
+    width: 60vw;
+    margin-top: -20px;
+}
+
+.text-content {
+    width: 180px;
+    margin-right: 40px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.text-content1 {
+    width: 40%;
+    font-size: 13px;
+    margin-right: 70px;
+    margin-top: -4px;
+}
+
+.container4-2 {
+    background-color: black;
+    color: white;
+    padding: 8%;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.sinxro img {
+    width: 55%;
+}
+
+.top-social {
+    display: flex;
+    margin-top: 15px;
+}
+
+.logos {
+    margin-right: 25px;
+}
+
+.insta,
+.fb,
+.vk,
+.wp {
+    width: 30px;
+}
+
+.contact {
+    margin-top: 0px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.phone {
+    margin-bottom: 5px;
+}
+
+.mail {
+    margin-bottom: 50px;
+}
+
+.logo1 {
+    margin-right: 15px;
+    width: 25px;
+}
+
+.phone-logo {
+    display: flex;
+}
+
+.mail-logo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sinxronizasiya {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.style {
+    display: flex;
+    justify-content: space-between;
+}

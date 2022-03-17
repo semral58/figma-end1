@@ -1,0 +1,471 @@
+    /*! 1 Section */
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    header {
+        margin-left: 140px;
+    }
+    
+    header .logo img {
+        width: 120px;
+        height: 70px;
+    }
+    
+    header .logo {
+        margin-top: 25px;
+        width: 15%;
+    }
+    
+    header .boxes {
+        margin-top: 80px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .boxes .box {
+        display: flex;
+        align-items: center;
+    }
+    
+    .boxes .box img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .boxes .box p {
+        margin-top: 23px;
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    header .boxes2 {
+        display: flex;
+    }
+    
+    header .boxes2 .text h1 {
+        width: 640px;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 86px;
+        margin-top: 24px;
+    }
+    
+    header .boxes2 .text p {
+        font-size: 24px;
+        line-height: 30px;
+        width: 500px;
+        margin-top: 80px;
+    }
+    
+    .image-man {
+        margin-top: -290px;
+        width: 100%;
+        margin-left: -70px;
+    }
+    
+    .image-man img {
+        margin-left: 100px;
+        width: 304px;
+        height: 356px;
+    }
+    
+    .section1 {
+        margin-top: 57px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section1 .box {
+        width: 470px;
+        height: 200px;
+        border-radius: 3px;
+        background-color: #1E4681;
+        margin-left: -300px;
+    }
+    
+    .section1 .box .text {
+        margin-top: -20px;
+        margin-left: -15px;
+        width: 410px;
+        height: 113px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32.5px;
+    }
+    
+    .section1 .box .author {
+        margin-top: 20px;
+        text-align: end;
+        margin-left: 230px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    /*!  2  Section  */
+    
+    .main-info,
+    .second-info {
+        display: flex;
+    }
+    
+    .title {
+        width: 365px;
+        height: 93px;
+        margin-left: 140px;
+        margin-top: 150px;
+        font-size: 55px;
+        line-height: 56px;
+    }
+    
+    .article {
+        width: 662px;
+        height: 374px;
+        margin-left: 140px;
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .image {
+        width: 100%;
+        height: 360px;
+        margin-left: 150px;
+        margin-top: 320px;
+    }
+    
+    .image-2 {
+        display: block;
+        width: 70%;
+        height: 250px;
+        margin-left: 140px;
+        margin-top: 95px;
+    }
+    
+    .notification {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .item .item-title,
+    .item-2 .item-title {
+        width: 150px;
+        height: 40px;
+        margin-top: 180px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    
+    .item .first,
+    .item .item-article_1 {
+        margin-left: 132px;
+    }
+    
+    .item .second,
+    .item .item-article_2 {
+        margin-left: 95px;
+    }
+    
+    .item-2 .third,
+    .item-2 .item-article_3 {
+        margin-left: 93px;
+    }
+    
+    .item .item-article_1,
+    .item .item-article_2,
+    .item-2 .item-article_3 {
+        width: 150px;
+        height: 39px;
+        margin-top: 1px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    /*!  3  Section  */
+    
+    .Формат-занятий {
+        margin-left: 140px;
+        width: 100%;
+    }
+    
+    .first-second {
+        width: 100%;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 150px;
+        font-family: 'Roboto Slab', sans-serif;
+    }
+    
+    .first-container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .Вебинары {
+        font-family: 'Roboto', sans-serif;
+        width: 390px;
+    }
+    
+    .Вебинары h3,
+    .Доступ-навсегда h3,
+    .Общение h3 {
+        font-size: 25px;
+    }
+    
+    .Вебинары p,
+    .Доступ-навсегда p,
+    .Общение p {
+        font-size: 19px;
+    }
+    
+    .Доступ-навсегда {
+        font-family: 'Roboto', sans-serif;
+        width: 400px;
+    }
+    
+    .Общение {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container-second {
+        font-family: 'Roboto Slab', serif;
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 250px;
+        margin-left: 140px;
+    }
+    
+    .Кто-чем ul {
+        margin-top: 30px;
+    }
+    
+    li {
+        font-size: 27px;
+        margin-left: 110px;
+    }
+    /*!  4  Section  */
+    
+    .title-course {
+        width: 60%;
+        font-size: 60px;
+        line-height: 55px;
+        margin-left: 140px;
+        margin-top: 200px;
+        margin-bottom: 110px;
+    }
+    
+    .container {
+        width: 85%;
+        height: 100%;
+        margin: auto;
+        margin-left: 165px;
+    }
+    
+    .card {
+        width: 340px;
+        height: 280px;
+    }
+    
+    .photo {
+        width: 340px;
+        height: 140px;
+    }
+    
+    .card-title {
+        width: 85%;
+        font-size: 25px;
+        line-height: 28px;
+    }
+    
+    .card-main {
+        width: 75%;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 35px;
+    }
+    
+    .card .last {
+        margin-top: -10px;
+    }
+    /*!  5  Section  */
+    
+    .container-about {
+        height: 780px;
+        width: 113.4%;
+        background-color: #efefef;
+    }
+    
+    .child-title {
+        width: 70%;
+        padding-left: 125px;
+        padding-top: 91px;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 56px;
+    }
+    
+    .block {
+        width: 790px;
+        height: 451px;
+        margin-top: 40px;
+        margin-left: 150px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+    }
+    
+    .text {
+        width: 700px;
+        padding-top: 40px;
+        padding-left: 45px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .sec {
+        display: flex;
+    }
+    
+    .image_1 {
+        width: 190px;
+        height: 169px;
+        margin-left: 26px;
+        margin-top: 10px;
+        background: url(1.png);
+    }
+    
+    .image_2 {
+        width: 32px;
+        height: 31px;
+        padding-left: 30px;
+        margin-top: -15px;
+    }
+    
+    .sub {
+        width: 353px;
+        height: 43px;
+        padding-left: 30px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30.42px;
+        margin-top: 35px;
+    }
+    /*!  6  Section  */
+    
+    .container4 {
+        margin: auto;
+        margin: 0px;
+        width: 113.4%;
+    }
+    
+    .container4-1 {
+        display: flex;
+        background-color: #9DC9C8;
+        flex-direction: column;
+        padding: 9%;
+        margin: 0;
+    }
+    
+    .content {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .content2 {
+        margin-left: -250px;
+    }
+    
+    .kurs {
+        font-size: 45px;
+        width: 90%;
+        font-family: Roboto Slab, Roboto;
+    }
+    
+    .rubl-1 {
+        font-size: 27px;
+        margin-bottom: 50px;
+    }
+    
+    .rubl-2 {
+        font-size: 90px;
+        width: 60vw;
+        margin-top: -25px;
+    }
+    
+    .text-content {
+        width: 20vw;
+        margin-right: 40px;
+        font-size: 25px;
+        margin-top: -15px;
+    }
+    
+    .text-content1 {
+        width: 45%;
+        font-size: 20px;
+        margin-right: 70px;
+    }
+    
+    .container4-2 {
+        background-color: black;
+        color: white;
+        padding: 9%;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    
+    .sinxro img {
+        width: 55%;
+        margin-top: 15px;
+    }
+    
+    .top-social {
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .logos {
+        margin-right: 50px;
+    }
+    
+    .insta,
+    .fb,
+    .vk,
+    .wp {
+        width: 50px;
+    }
+    
+    .contact {
+        margin-top: 15px;
+        font-size: 24px;
+        margin-right: 70px;
+    }
+    
+    .phone {
+        margin-bottom: 5px;
+    }
+    
+    .mail {
+        margin-bottom: 50px;
+    }
+    
+    .logo1 {
+        margin-right: 15px;
+        width: 30px;
+    }
+    
+    .sinxronizasiya {
+        font-size: 18px;
+        width: 100%;
+        margin-top: 150px;
+    }
+    
+    .style {
+        display: flex;
+        justify-content: space-between;
+    }
